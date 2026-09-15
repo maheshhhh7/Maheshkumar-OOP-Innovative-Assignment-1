@@ -12,6 +12,7 @@ public class ProblemC {
                 System.out.print("Enter roll number: ");
                 rollNo = scanner.nextInt();
                 validInput = true;
+
             } catch (InputMismatchException e) {
                 System.out.println("Invalid input! Please enter a numeric roll number.");
                 scanner.next(); // discard the invalid token
